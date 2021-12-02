@@ -1,0 +1,22 @@
+// vendors
+$vendors: "-moz-", "-webkit-", "-o-", "-ms-", "";
+
+// colors definitaions
+$primary:#fff;
+$desc:#94949a;
+$headings-color:#000;
+$section-background: #f7f8fc;
+$footer-color:#222222;
+
+
+// images paths
+$headerbg :  '../img/banner/home-banner.jpg';
+
+ //media queries
+ $mobile-xs-width: 320;
+ $mobile-sm-width: 568;
+ $tablet-sm-width: 768;
+ $tablet-lg-width: 992;
+ $desktop-sm-width: 1200;
+ $desktop-lg-width: 1400;
+ $lessThan: 1;
