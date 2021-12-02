@@ -19,7 +19,7 @@
 ******************************************************
 */
 /**********placeholders**********/
-h2, h4, .p__header, .features header p, button {
+h2, h4, .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, button, .architecure .architecure__header_wrapper h2 {
   color: #000;
   text-transform: capitalize; }
 
@@ -69,13 +69,13 @@ h4 {
   font-size: 1rem;
   margin-left: 35px; }
 
-.p__header, .features header p {
+.p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li {
   font-size: 15px;
   text-align: center;
   padding: 0 100px 40px 100px;
   color: #94949a; }
 
-p {
+p, .architecure .architecure__header_wrapper p, .pricing .pricing__items__wrapper .pricing__item__wrapper ul li {
   text-align: left;
   color: #94949a;
   padding: 0 35px 0 35px;
@@ -109,7 +109,7 @@ button {
   .page__header .blog__header {
     margin-top: 4rem;
     padding-bottom: 8rem; }
-    .page__header .blog__header .header__content__wrapper p {
+    .page__header .blog__header .header__content__wrapper p, .page__header .blog__header .header__content__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .page__header .blog__header .header__content__wrapper li {
       color: #fff;
       padding-left: 0;
       line-height: 1.5; }
@@ -180,7 +180,7 @@ button {
 @media (min-width: 320px) and (max-width: 567px) {
   .features h2 {
     font-size: 2rem; }
-  .features .p__header, .features header p {
+  .features .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features header li, .features .pricing header p, .pricing header .features p, .features .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul .features li, .features .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header .features li {
     padding: 0; }
   .features .features__items .features__item {
     width: 80%;
@@ -190,7 +190,7 @@ button {
 @media (min-width: 568px) and (max-width: 767px) {
   .features h2 {
     font-size: 2.5rem; }
-  .features .p__header, .features header p {
+  .features .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features header li, .features .pricing header p, .pricing header .features p, .features .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul .features li, .features .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header .features li {
     padding: 0; }
   .features .features__items .features__item {
     width: 80%;
@@ -209,3 +209,135 @@ button {
     .features .features__items .features__item {
       width: 42%;
       margin: 1rem 0; } }
+
+/**********architecture**********/
+.architecure {
+  background-color: #f7f8fc; }
+  .architecure .architecure__img__wrapper img {
+    width: 100%;
+    background-size: cover; }
+  .architecure .architecure__header_wrapper .archBtn {
+    background: -webkit-linear-gradient(to right, #aa4afd 0%, #8c3efc 100%);
+    background: -moz-linear-gradient(to right, #aa4afd 0%, #8c3efc 100%);
+    background: -o-linear-gradient(to right, #aa4afd 0%, #8c3efc 100%);
+    background: linear-gradient(to right, #aa4afd 0%, #8c3efc 100%); }
+  .architecure .architecure__header_wrapper h2 {
+    font-size: 50px;
+    text-align: left; }
+  .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .architecure .architecure__header_wrapper li {
+    padding: 0 0 35px 0; }
+
+.architecure.second {
+  padding: 120px 0;
+  background-color: #fff; }
+
+@media (min-width: 320px) and (max-width: 567px) {
+  .architecure .architecure__header_wrapper h2 {
+    font-size: 2rem; } }
+
+@media (min-width: 568px) and (max-width: 767px) {
+  .architecure .architecure__header_wrapper h2 {
+    font-size: 2.5rem; } }
+
+@media (max-width: 1200px) {
+  .architecure__items {
+    flex-wrap: wrap !important; } }
+
+/**********video**********/
+.video {
+  position: relative; }
+  .video .videoo img {
+    width: 100%; }
+  .video .video__icon {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: auto;
+    transform: translate(-50%, -50%); }
+
+/**********pricing**********/
+.pricing {
+  background-color: #f7f8fc; }
+  .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li {
+    color: #94949a; }
+  .pricing .pricing__items__wrapper .pricing__item__wrapper {
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; }
+    .pricing .pricing__items__wrapper .pricing__item__wrapper .title__items_wrapper {
+      justify-content: space-around; }
+      .pricing .pricing__items__wrapper .pricing__item__wrapper .title__items_wrapper h4 {
+        font-size: 2rem; }
+    .pricing .pricing__items__wrapper .pricing__item__wrapper ul {
+      border-top: 1px solid #e4dbdb; }
+      .pricing .pricing__items__wrapper .pricing__item__wrapper ul li:first-child {
+        padding-top: 35px; }
+      .pricing .pricing__items__wrapper .pricing__item__wrapper ul li {
+        padding: 0 0 35px 0; }
+    .pricing .pricing__items__wrapper .pricing__item__wrapper button {
+      width: 12rem;
+      height: 3rem;
+      color: #000;
+      background-color: #f7f8fc;
+      border: 1px solid #f7f8fc;
+      box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+      margin: 0 0 10% 25%; }
+
+@media (min-width: 320px) and (max-width: 567px) {
+  .pricing .pricing__items__wrapper .pricing__item__wrapper {
+    width: 80%;
+    margin: 1rem auto; }
+    .pricing .pricing__items__wrapper .pricing__item__wrapper button {
+      display: block;
+      margin: auto;
+      width: 8rem;
+      margin-bottom: 2rem; }
+  .title__item__wrapper h4 {
+    font-size: 1.5rem;
+    margin: 0; }
+  .title__item__wrapper p, .title__item__wrapper .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .title__item__wrapper p, .title__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .title__item__wrapper li {
+    padding: 0; }
+  .title__item__wrapper h2 {
+    font-size: 1.5rem;
+    padding-top: 0.5rem; }
+  .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li {
+    padding: 0; }
+  .pricing header h2 {
+    font-size: 2rem; } }
+
+@media (min-width: 568px) and (max-width: 767px) {
+  .pricing .pricing__items__wrapper .pricing__item__wrapper {
+    width: 80%;
+    margin: 1rem auto; }
+    .pricing .pricing__items__wrapper .pricing__item__wrapper button {
+      display: block;
+      margin: auto;
+      width: 8rem;
+      margin-bottom: 2rem; }
+  .title__item__wrapper h4 {
+    font-size: 1.5rem;
+    margin: 0; }
+  .title__item__wrapper p, .title__item__wrapper .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .title__item__wrapper p, .title__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .title__item__wrapper li {
+    padding: 0; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .pricing .pricing__items__wrapper .pricing__item__wrapper {
+    width: 80%;
+    margin: 1rem auto; }
+    .pricing .pricing__items__wrapper .pricing__item__wrapper button {
+      display: block;
+      margin: auto;
+      width: 8rem;
+      margin-bottom: 2rem; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .pricing .pricing__items__wrapper .pricing__item__wrapper h2 {
+    font-size: 2rem;
+    margin-left: 0.7rem; }
+  .pricing .pricing__items__wrapper .pricing__item__wrapper button {
+    display: block;
+    margin: auto;
+    width: 8rem;
+    margin-bottom: 2rem; }
+  .title__item__wrapper h4 {
+    margin: 0; }
+  .title__item__wrapper p, .title__item__wrapper .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .title__item__wrapper p, .title__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .title__item__wrapper li {
+    padding: 0; } }

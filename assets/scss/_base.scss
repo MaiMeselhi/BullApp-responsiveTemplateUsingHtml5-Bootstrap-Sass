@@ -255,3 +255,203 @@ button {
         }
     }
 }
+/**********architecture**********/
+.architecure {
+    background-color: $section-background;
+
+    .architecure__img__wrapper {
+        img {
+            width: 100%;
+            background-size: cover;
+        }
+    }
+    .architecure__header_wrapper {
+        .archBtn {
+            @include linear-gradient(to right, #aa4afd, #8c3efc);
+        }
+        h2 {
+            @extend %headerspec;
+            font-size: 50px;
+            text-align: left;
+        }
+        p {
+            @extend p;
+            padding: 0 0 35px 0;
+        }
+    }
+}
+.architecure.second {
+    padding: 120px 0;
+    background-color: $primary;
+}
+@include mobile-xs {
+    .architecure .architecure__header_wrapper h2 {
+        font-size: 2rem;
+    }
+}
+@include mobile-sm {
+    .architecure .architecure__header_wrapper h2 {
+        font-size: 2.5rem;
+    }
+}
+@include to-desktop-sm {
+    .architecure__items {
+        flex-wrap: wrap !important;
+    }
+}
+/**********video**********/
+.video {
+    position: relative;
+    .videoo img {
+        width: 100%;
+    }
+    .video__icon {
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        margin: auto;
+        transform: translate(-50%, -50%);
+    }
+}
+/**********pricing**********/
+.pricing {
+    background-color: $section-background;
+    header {
+        p {
+            @extend .p__header;
+            color: $desc;
+        }
+    }
+    .pricing__items__wrapper {
+        .pricing__item__wrapper {
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+                rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+            .title__items_wrapper {
+                justify-content: space-around;
+                h4 {
+                    font-size: 2rem;
+                }
+            }
+            ul {
+                border-top: 1px solid #e4dbdb;
+                li:first-child {
+                    padding-top: 35px;
+                }
+                li {
+                    @extend p;
+                    padding: 0 0 35px 0;
+                }
+            }
+            button {
+                width: 12rem;
+                height: 3rem;
+                color: #000;
+                background-color: $section-background;
+                border: 1px solid $section-background;
+                box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+                    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+                margin: 0 0 10% 25%;
+            }
+        }
+    }
+}
+@include mobile-xs {
+    .pricing {
+        .pricing__items__wrapper {
+            .pricing__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                button {
+                    display: block;
+                    margin: auto;
+                    width: 8rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    .title__item__wrapper h4 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .title__item__wrapper p {
+        padding: 0;
+    }
+    .title__item__wrapper h2 {
+        font-size: 1.5rem;
+        padding-top: 0.5rem;
+    }
+    .p__header {
+        padding: 0;
+    }
+
+    .pricing header h2 {
+        font-size: 2rem;
+    }
+}
+@include mobile-sm {
+    .pricing {
+        .pricing__items__wrapper {
+            .pricing__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                button {
+                    display: block;
+                    margin: auto;
+                    width: 8rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+    .title__item__wrapper h4 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+    .title__item__wrapper p {
+        padding: 0;
+    }
+}
+@include tablet {
+    .pricing {
+        .pricing__items__wrapper {
+            .pricing__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                button {
+                    display: block;
+                    margin: auto;
+                    width: 8rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+}
+
+@include desktop {
+    .pricing {
+        .pricing__items__wrapper {
+            .pricing__item__wrapper {
+                h2 {
+                    font-size: 2rem;
+                    margin-left: 0.7rem;
+                }
+                button {
+                    display: block;
+                    margin: auto;
+                    width: 8rem;
+                    margin-bottom: 2rem;
+                }
+            }
+        }
+    }
+
+    .title__item__wrapper h4 {
+        margin: 0;
+    }
+    .title__item__wrapper p {
+        padding: 0;
+    }
+}
