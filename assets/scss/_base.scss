@@ -23,10 +23,6 @@ body {
 .padding__Y {
     padding: 120px 0;
 }
-.d-flex {
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .mg {
     margin: 0 5%;
@@ -81,4 +77,96 @@ button {
     text-transform: capitalize;
     border-radius: 10px;
     border: 1px solid #aa4afd;
+}
+
+/********** Navbar**********/
+.page__header {
+    height: 800px;
+    @include background-image($headerbg);
+    .navbar-brand {
+        padding-top: 2rem;
+    }
+
+    .navbar-nav {
+        position: absolute;
+        right: 0;
+        a {
+            color: $primary !important;
+        }
+    }
+    .blog__header {
+        margin-top: 4rem;
+        padding-bottom: 8rem;
+
+        .header__content__wrapper {
+            p {
+                color: $primary;
+                padding-left: 0;
+                line-height: 1.5;
+            }
+
+            button {
+                background-color: $primary;
+                color: #000;
+                width: 12rem;
+                margin-top: 4rem;
+            }
+        }
+    }
+}
+
+@include mobile-xs {
+    .page__header {
+        height: 1210px;
+    }
+    .navbar-nav {
+        display: contents;
+    }
+    .blog_title {
+        margin: 0;
+        padding: 0;
+        font-size: 2.5rem;
+    }
+    .page__header .blog__header .header__content__wrapper button {
+        margin: 1rem 0;
+    }
+    .blog__header {
+        display: block !important;
+    }
+    .header__img__wrapper img {
+        width: 50%;
+    }
+}
+@include mobile-sm {
+    .page__header {
+        height: 1350px;
+    }
+    .navbar-nav {
+        display: contents;
+    }
+    .blog_title {
+        margin: 0;
+        padding: 0;
+        font-size: 3rem;
+    }
+    .page__header .blog__header .header__content__wrapper button {
+        margin: 1rem 0;
+    }
+    .blog__header {
+        display: block !important;
+    }
+    .header__img__wrapper img {
+        width: 50%;
+    }
+}
+@include tablet {
+    .page__header {
+        height: 1480px;
+    }
+    .navbar-nav {
+        display: contents;
+    }
+    .blog__header {
+        display: block !important;
+    }
 }
