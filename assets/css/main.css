@@ -19,7 +19,7 @@
 ******************************************************
 */
 /**********placeholders**********/
-h2, h4, .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, button, .architecure .architecure__header_wrapper h2 {
+h2, h4, .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .screenshots header p, .screenshots header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .screenshots header p, .screenshots header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, button, .architecure .architecure__header_wrapper h2 {
   color: #000;
   text-transform: capitalize; }
 
@@ -69,7 +69,7 @@ h4 {
   font-size: 1rem;
   margin-left: 35px; }
 
-.p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li {
+.p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .screenshots header p, .screenshots header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .screenshots header p, .screenshots header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li {
   font-size: 15px;
   text-align: center;
   padding: 0 100px 40px 100px;
@@ -180,7 +180,7 @@ button {
 @media (min-width: 320px) and (max-width: 567px) {
   .features h2 {
     font-size: 2rem; }
-  .features .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features header li, .features .pricing header p, .pricing header .features p, .features .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul .features li, .features .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header .features li {
+  .features .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features header li, .features .pricing header p, .pricing header .features p, .features .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul .features li, .features .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header .features li, .features .screenshots header p, .screenshots header .features p, .screenshots header .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features li {
     padding: 0; }
   .features .features__items .features__item {
     width: 80%;
@@ -190,7 +190,7 @@ button {
 @media (min-width: 568px) and (max-width: 767px) {
   .features h2 {
     font-size: 2.5rem; }
-  .features .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features header li, .features .pricing header p, .pricing header .features p, .features .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul .features li, .features .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header .features li {
+  .features .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features header li, .features .pricing header p, .pricing header .features p, .features .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul .features li, .features .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header .features li, .features .screenshots header p, .screenshots header .features p, .screenshots header .pricing .pricing__items__wrapper .pricing__item__wrapper ul .features li {
     padding: 0; }
   .features .features__items .features__item {
     width: 80%;
@@ -298,7 +298,7 @@ button {
   .title__item__wrapper h2 {
     font-size: 1.5rem;
     padding-top: 0.5rem; }
-  .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li {
+  .p__header, .features header p, .features header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .features header p, .features header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing header p, .pricing header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .pricing header p, .pricing header .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul header li, .screenshots header p, .screenshots header .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .screenshots header p, .screenshots header .pricing .pricing__items__wrapper .pricing__item__wrapper ul li {
     padding: 0; }
   .pricing header h2 {
     font-size: 2rem; } }
@@ -330,14 +330,70 @@ button {
 
 @media (min-width: 992px) and (max-width: 1199px) {
   .pricing .pricing__items__wrapper .pricing__item__wrapper h2 {
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-left: 0.7rem; }
   .pricing .pricing__items__wrapper .pricing__item__wrapper button {
     display: block;
     margin: auto;
     width: 8rem;
     margin-bottom: 2rem; }
+  .title__item__wrapper {
+    margin: 0;
+    padding: 0; }
   .title__item__wrapper h4 {
+    font-size: 1.5rem;
     margin: 0; }
   .title__item__wrapper p, .title__item__wrapper .architecure .architecure__header_wrapper p, .architecure .architecure__header_wrapper .title__item__wrapper p, .title__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .title__item__wrapper li {
     padding: 0; } }
+
+/**********screenshots**********/
+.screenshots .screenshots__items__wrapper {
+  justify-content: space-between; }
+  .screenshots .screenshots__items__wrapper .screenshots__item__wrapper {
+    width: 22%; }
+    .screenshots .screenshots__items__wrapper .screenshots__item__wrapper img {
+      width: 100%; }
+
+@media (min-width: 320px) and (max-width: 567px) {
+  .screenshots {
+    padding: 60px 0; }
+    .screenshots .screenshots__items__wrapper .screenshots__item__wrapper {
+      width: 80%;
+      margin: 1rem auto; }
+    .screenshots .screenshots__items__wrapper img {
+      display: block;
+      margin: auto;
+      width: 100%; } }
+
+@media (min-width: 568px) and (max-width: 767px) {
+  .screenshots {
+    padding: 60px 0; }
+    .screenshots .screenshots__items__wrapper .screenshots__item__wrapper {
+      width: 100%;
+      margin: 1rem auto; }
+    .screenshots .screenshots__items__wrapper img {
+      display: block;
+      margin: auto;
+      width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .screenshots {
+    padding: 60px 0; }
+    .screenshots .screenshots__items__wrapper .screenshots__item__wrapper {
+      width: 45%;
+      margin: 1.25rem 0; }
+    .screenshots .screenshots__items__wrapper img {
+      display: block;
+      margin: auto;
+      width: 80%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .screenshots {
+    padding: 60px 0; }
+    .screenshots .screenshots__items__wrapper .screenshots__item__wrapper {
+      width: 22%;
+      margin: 1.25rem 0; }
+    .screenshots .screenshots__items__wrapper img {
+      display: block;
+      margin: auto;
+      width: 100%; } }
