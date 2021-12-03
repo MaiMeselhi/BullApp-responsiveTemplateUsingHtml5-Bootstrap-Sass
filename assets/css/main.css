@@ -369,7 +369,7 @@ button {
   .screenshots {
     padding: 60px 0; }
     .screenshots .screenshots__items__wrapper .screenshots__item__wrapper {
-      width: 100%;
+      width: 70%;
       margin: 1rem auto; }
     .screenshots .screenshots__items__wrapper img {
       display: block;
@@ -397,3 +397,63 @@ button {
       display: block;
       margin: auto;
       width: 100%; } }
+
+/**********testmonials**********/
+.testmonials .testmonials__items__wrapper {
+  justify-content: space-evenly; }
+  .testmonials .testmonials__items__wrapper .testmonials__item__wrapper {
+    width: 45%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 1rem; }
+    .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__img {
+      width: 15%;
+      margin: 1rem; }
+    .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc {
+      width: 70%; }
+      .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc p, .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc li {
+        padding: 1rem 0; }
+      .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc h4 {
+        margin: 0; }
+
+@media (min-width: 320px) and (max-width: 567px) {
+  .testmonials .testmonials__items__wrapper .testmonials__item__wrapper {
+    width: 80%;
+    margin: 1rem auto; }
+    .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__img {
+      width: 100%;
+      display: block;
+      margin: 0.5rem auto; }
+      .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__img img {
+        margin: auto;
+        display: block; }
+    .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc {
+      width: 100%; } }
+
+@media (min-width: 568px) and (max-width: 767px) {
+  .testmonials .testmonials__items__wrapper .testmonials__item__wrapper {
+    width: 80%;
+    margin: 1rem auto; }
+    .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__img {
+      width: 100%;
+      display: block;
+      margin: 0.5rem auto; }
+      .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__img img {
+        margin: auto;
+        display: block; }
+    .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc {
+      width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .testmonials .testmonials__items__wrapper {
+    justify-content: space-evenly; }
+    .testmonials .testmonials__items__wrapper .testmonials__item__wrapper {
+      margin: 1rem auto; }
+      .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__img {
+        width: 100%;
+        display: block;
+        margin: 0.5rem auto; }
+        .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__img img {
+          margin: auto;
+          display: block; }
+      .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc {
+        width: 100%; } }

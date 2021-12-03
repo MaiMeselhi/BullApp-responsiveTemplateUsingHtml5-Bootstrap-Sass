@@ -543,3 +543,95 @@ button {
         }
     }
 }
+/**********testmonials**********/
+.testmonials {
+    .testmonials__items__wrapper {
+        justify-content: space-evenly;
+        .testmonials__item__wrapper {
+            width: 45%;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            border-radius: 1rem;
+            .testmonials__item__img {
+                width: 15%;
+                margin: 1rem;
+            }
+            .testmonials__item__desc {
+                width: 70%;
+                p {
+                    padding: 1rem 0;
+                }
+                h4 {
+                    margin: 0;
+                }
+            }
+        }
+    }
+}
+@include mobile-xs {
+    .testmonials {
+        .testmonials__items__wrapper {
+            .testmonials__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                .testmonials__item__img {
+                    width: 100%;
+                    display: block;
+                    margin: 0.5rem auto;
+
+                    img {
+                        margin: auto;
+                        display: block;
+                    }
+                }
+                .testmonials__item__desc {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@include mobile-sm {
+    .testmonials {
+        .testmonials__items__wrapper {
+            .testmonials__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                .testmonials__item__img {
+                    width: 100%;
+                    display: block;
+                    margin: 0.5rem auto;
+
+                    img {
+                        margin: auto;
+                        display: block;
+                    }
+                }
+                .testmonials__item__desc {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+@include tablet {
+    .testmonials {
+        .testmonials__items__wrapper {
+            justify-content: space-evenly;
+            .testmonials__item__wrapper {
+                margin: 1rem auto;
+                .testmonials__item__img {
+                    width: 100%;
+                    display: block;
+                    margin: 0.5rem auto;
+                    img {
+                        margin: auto;
+                        display: block;
+                    }
+                }
+                .testmonials__item__desc {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
