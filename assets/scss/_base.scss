@@ -635,3 +635,271 @@ button {
         }
     }
 }
+/**********News**********/
+.news {
+    .news__items__wrapper {
+        justify-content: space-between;
+        .news__item__wrapper {
+            p:first-child {
+                border: 1px solid $desc;
+                background-color: $primary;
+                width: 20%;
+
+                margin: 1rem 2rem;
+            }
+            p {
+                line-height: 2;
+            }
+            background-color: $section-background;
+            width: 30%;
+            ul li {
+                display: inline-block;
+            }
+        }
+    }
+}
+@include mobile-xs {
+    .news {
+        .news__items__wrapper {
+            .news__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                background-color: $section-background;
+                p:first-child {
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+@include mobile-sm {
+    .news {
+        .news__items__wrapper {
+            .news__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                background-color: $section-background;
+                p:first-child {
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+@include tablet {
+    .news {
+        .news__items__wrapper {
+            .news__item__wrapper {
+                width: 80%;
+                margin: 1rem auto;
+                background-color: $section-background;
+                p:first-child {
+                    width: 30%;
+                }
+            }
+        }
+    }
+}
+@include desktop {
+    .news {
+        .news__items__wrapper {
+            .news__item__wrapper {
+                background-color: $section-background;
+                p:first-child {
+                    width: 40%;
+                }
+            }
+        }
+    }
+}
+/**********Footer**********/
+footer {
+    background-color: $footer-color;
+    .footer__items {
+        justify-content: space-between;
+        .footer__list {
+            h4 {
+                color: $primary;
+            }
+            width: 20%;
+            li {
+                color: $primary;
+                padding-top: 20px;
+            }
+        }
+        .footer__newselter {
+            h4 {
+                color: $primary;
+                margin-left: 0;
+            }
+            p {
+                color: $primary;
+                padding: 20px 0;
+            }
+            width: 50%;
+            form {
+                flex-wrap: nowrap;
+                input {
+                    width: 80%;
+                    height: 2rem;
+                    border-radius: 1rem;
+                    position: relative;
+                    border: 1px solid $primary;
+                }
+                button {
+                    width: 10%;
+                    height: 2rem;
+                    border-radius: 1rem;
+                    position: absolute;
+                    right: 35%;
+                    @include linear-gradient(to right, #aa4afd, #8c3efc);
+                }
+            }
+        }
+        .footer__instgram {
+            width: 20%;
+            h4 {
+                color: $primary;
+                margin-left: 0;
+            }
+
+            .footer__instgram__row {
+                flex-wrap: nowrap;
+                justify-content: space-between;
+
+                .img {
+                    width: 24%;
+                    img {
+                        width: 100%;
+                        background-size: cover;
+                    }
+                }
+            }
+        }
+    }
+    p {
+        i {
+            color: #431e68;
+        }
+        .highlight {
+            color: #431e68;
+        }
+    }
+    .footer__copyright {
+        margin: 1rem;
+        padding-left: 1.5rem;
+    }
+}
+@include mobile-xs {
+    footer {
+        .footer__items {
+            margin: auto;
+            width: 90%;
+            .footer__list {
+                width: 100%;
+                text-align: center;
+            }
+            .footer__newselter {
+                width: 100%;
+                margin: 1rem 0;
+                p {
+                    padding: 0 1rem;
+                }
+                form {
+                    flex-wrap: wrap;
+
+                    input {
+                        width: 60%;
+                        margin: 1rem auto;
+                    }
+                    button {
+                        display: block;
+                        width: 8rem;
+                        position: static;
+                        margin: auto;
+                    }
+                }
+            }
+            .footer__instgram {
+                margin: 1rem 0;
+                width: 100%;
+                .footer__instgram__row {
+                    .img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@include mobile-sm {
+    footer {
+        .footer__items {
+            .footer__list {
+                width: 100%;
+                text-align: center;
+            }
+            .footer__newselter {
+                width: 100%;
+                form {
+                    flex-wrap: wrap;
+
+                    input {
+                        width: 80%;
+                        margin: 1rem auto;
+                    }
+                    button {
+                        display: block;
+                        width: 8rem;
+                        position: static;
+                        margin: auto;
+                    }
+                }
+            }
+            .footer__instgram {
+                width: 100%;
+                .footer__instgram__row {
+                    .img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include tablet {
+    footer {
+        .footer__items {
+            .footer__list {
+                width: 100%;
+                text-align: center;
+            }
+            .footer__newselter {
+                width: 100%;
+                form {
+                    flex-wrap: wrap;
+
+                    input {
+                        width: 80%;
+                        margin: 1rem auto;
+                    }
+                    button {
+                        display: block;
+                        width: 8rem;
+                        position: static;
+                        margin: auto;
+                    }
+                }
+            }
+            .footer__instgram {
+                width: 100%;
+                .footer__instgram__row {
+                    .img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

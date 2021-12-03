@@ -457,3 +457,178 @@ button {
           display: block; }
       .testmonials .testmonials__items__wrapper .testmonials__item__wrapper .testmonials__item__desc {
         width: 100%; } }
+
+/**********News**********/
+.news .news__items__wrapper {
+  justify-content: space-between; }
+  .news .news__items__wrapper .news__item__wrapper {
+    background-color: #f7f8fc;
+    width: 30%; }
+    .news .news__items__wrapper .news__item__wrapper p:first-child, .news .news__items__wrapper .news__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li:first-child, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .news .news__items__wrapper .news__item__wrapper li:first-child {
+      border: 1px solid #94949a;
+      background-color: #fff;
+      width: 20%;
+      margin: 1rem 2rem; }
+    .news .news__items__wrapper .news__item__wrapper p, .news .news__items__wrapper .news__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .news .news__items__wrapper .news__item__wrapper li {
+      line-height: 2; }
+    .news .news__items__wrapper .news__item__wrapper ul li {
+      display: inline-block; }
+
+@media (min-width: 320px) and (max-width: 567px) {
+  .news .news__items__wrapper .news__item__wrapper {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f7f8fc; }
+    .news .news__items__wrapper .news__item__wrapper p:first-child, .news .news__items__wrapper .news__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li:first-child, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .news .news__items__wrapper .news__item__wrapper li:first-child {
+      width: 30%; } }
+
+@media (min-width: 568px) and (max-width: 767px) {
+  .news .news__items__wrapper .news__item__wrapper {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f7f8fc; }
+    .news .news__items__wrapper .news__item__wrapper p:first-child, .news .news__items__wrapper .news__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li:first-child, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .news .news__items__wrapper .news__item__wrapper li:first-child {
+      width: 30%; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .news .news__items__wrapper .news__item__wrapper {
+    width: 80%;
+    margin: 1rem auto;
+    background-color: #f7f8fc; }
+    .news .news__items__wrapper .news__item__wrapper p:first-child, .news .news__items__wrapper .news__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li:first-child, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .news .news__items__wrapper .news__item__wrapper li:first-child {
+      width: 30%; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .news .news__items__wrapper .news__item__wrapper {
+    background-color: #f7f8fc; }
+    .news .news__items__wrapper .news__item__wrapper p:first-child, .news .news__items__wrapper .news__item__wrapper .pricing .pricing__items__wrapper .pricing__item__wrapper ul li:first-child, .pricing .pricing__items__wrapper .pricing__item__wrapper ul .news .news__items__wrapper .news__item__wrapper li:first-child {
+      width: 40%; } }
+
+/**********Footer**********/
+footer {
+  background-color: #222222; }
+  footer .footer__items {
+    justify-content: space-between; }
+    footer .footer__items .footer__list {
+      width: 20%; }
+      footer .footer__items .footer__list h4 {
+        color: #fff; }
+      footer .footer__items .footer__list li {
+        color: #fff;
+        padding-top: 20px; }
+    footer .footer__items .footer__newselter {
+      width: 50%; }
+      footer .footer__items .footer__newselter h4 {
+        color: #fff;
+        margin-left: 0; }
+      footer .footer__items .footer__newselter p, footer .footer__items .footer__newselter .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul footer .footer__items .footer__newselter li {
+        color: #fff;
+        padding: 20px 0; }
+      footer .footer__items .footer__newselter form {
+        flex-wrap: nowrap; }
+        footer .footer__items .footer__newselter form input {
+          width: 80%;
+          height: 2rem;
+          border-radius: 1rem;
+          position: relative;
+          border: 1px solid #fff; }
+        footer .footer__items .footer__newselter form button {
+          width: 10%;
+          height: 2rem;
+          border-radius: 1rem;
+          position: absolute;
+          right: 35%;
+          background: -webkit-linear-gradient(to right, #aa4afd 0%, #8c3efc 100%);
+          background: -moz-linear-gradient(to right, #aa4afd 0%, #8c3efc 100%);
+          background: -o-linear-gradient(to right, #aa4afd 0%, #8c3efc 100%);
+          background: linear-gradient(to right, #aa4afd 0%, #8c3efc 100%); }
+    footer .footer__items .footer__instgram {
+      width: 20%; }
+      footer .footer__items .footer__instgram h4 {
+        color: #fff;
+        margin-left: 0; }
+      footer .footer__items .footer__instgram .footer__instgram__row {
+        flex-wrap: nowrap;
+        justify-content: space-between; }
+        footer .footer__items .footer__instgram .footer__instgram__row .img {
+          width: 24%; }
+          footer .footer__items .footer__instgram .footer__instgram__row .img img {
+            width: 100%;
+            background-size: cover; }
+  footer p i, footer .architecure .architecure__header_wrapper p i, .architecure .architecure__header_wrapper footer p i, footer .pricing .pricing__items__wrapper .pricing__item__wrapper ul li i, .pricing .pricing__items__wrapper .pricing__item__wrapper ul footer li i {
+    color: #431e68; }
+  footer p .highlight, footer .architecure .architecure__header_wrapper p .highlight, .architecure .architecure__header_wrapper footer p .highlight, footer .pricing .pricing__items__wrapper .pricing__item__wrapper ul li .highlight, .pricing .pricing__items__wrapper .pricing__item__wrapper ul footer li .highlight {
+    color: #431e68; }
+  footer .footer__copyright {
+    margin: 1rem;
+    padding-left: 1.5rem; }
+
+@media (min-width: 320px) and (max-width: 567px) {
+  footer .footer__items {
+    margin: auto;
+    width: 90%; }
+    footer .footer__items .footer__list {
+      width: 100%;
+      text-align: center; }
+    footer .footer__items .footer__newselter {
+      width: 100%;
+      margin: 1rem 0; }
+      footer .footer__items .footer__newselter p, footer .footer__items .footer__newselter .pricing .pricing__items__wrapper .pricing__item__wrapper ul li, .pricing .pricing__items__wrapper .pricing__item__wrapper ul footer .footer__items .footer__newselter li {
+        padding: 0 1rem; }
+      footer .footer__items .footer__newselter form {
+        flex-wrap: wrap; }
+        footer .footer__items .footer__newselter form input {
+          width: 60%;
+          margin: 1rem auto; }
+        footer .footer__items .footer__newselter form button {
+          display: block;
+          width: 8rem;
+          position: static;
+          margin: auto; }
+    footer .footer__items .footer__instgram {
+      margin: 1rem 0;
+      width: 100%; }
+      footer .footer__items .footer__instgram .footer__instgram__row .img {
+        width: 100%; } }
+
+@media (min-width: 568px) and (max-width: 767px) {
+  footer .footer__items .footer__list {
+    width: 100%;
+    text-align: center; }
+  footer .footer__items .footer__newselter {
+    width: 100%; }
+    footer .footer__items .footer__newselter form {
+      flex-wrap: wrap; }
+      footer .footer__items .footer__newselter form input {
+        width: 80%;
+        margin: 1rem auto; }
+      footer .footer__items .footer__newselter form button {
+        display: block;
+        width: 8rem;
+        position: static;
+        margin: auto; }
+  footer .footer__items .footer__instgram {
+    width: 100%; }
+    footer .footer__items .footer__instgram .footer__instgram__row .img {
+      width: 100%; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  footer .footer__items .footer__list {
+    width: 100%;
+    text-align: center; }
+  footer .footer__items .footer__newselter {
+    width: 100%; }
+    footer .footer__items .footer__newselter form {
+      flex-wrap: wrap; }
+      footer .footer__items .footer__newselter form input {
+        width: 80%;
+        margin: 1rem auto; }
+      footer .footer__items .footer__newselter form button {
+        display: block;
+        width: 8rem;
+        position: static;
+        margin: auto; }
+  footer .footer__items .footer__instgram {
+    width: 100%; }
+    footer .footer__items .footer__instgram .footer__instgram__row .img {
+      width: 100%; } }
